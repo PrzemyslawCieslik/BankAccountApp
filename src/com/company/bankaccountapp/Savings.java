@@ -19,7 +19,6 @@ public class Savings extends Account {
 
     //List any methods specific to savings account
     public void showInfo(){
-        System.out.println("Account type: savings");
         super.showInfo();
         System.out.println(
                 "Your saving account features" +
