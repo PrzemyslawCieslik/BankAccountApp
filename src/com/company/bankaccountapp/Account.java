@@ -5,6 +5,7 @@ public abstract class Account implements IBaseRate{
     private String name;
     private String securityNumber;
     protected String accountNumber;
+    private String accountType;
     private double balance;
     protected double rate;
     private static int index = 10000;
